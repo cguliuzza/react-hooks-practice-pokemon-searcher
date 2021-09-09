@@ -1,7 +1,7 @@
 import React from "react";
 import { Card } from "semantic-ui-react";
 
-function PokemonCard() {
+function ColorCard() {
   return (
     <Card>
       <div>
@@ -9,12 +9,12 @@ function PokemonCard() {
           <img alt="oh no!" />
         </div>
         <div className="content">
-          <div className="header">POKEMON NAME HERE</div>
+          <div className="header">COLOR NAME HERE</div>
         </div>
         <div className="extra content">
           <span>
             <i className="icon heartbeat red" />
-            POKEMON HP HERE hp
+            COLOR HEX CODE HERE
           </span>
         </div>
       </div>
@@ -22,4 +22,4 @@ function PokemonCard() {
   );
 }
 
-export default PokemonCard;
+export default ColorCard;

@@ -1,10 +1,10 @@
 import React from "react";
-import PokemonPage from "./PokemonPage";
+import ColorPage from "./ColorPage";
 
 function App() {
   return (
     <div className="App">
-      <PokemonPage />
+      <ColorPage />
     </div>
   );
 }

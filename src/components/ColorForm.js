@@ -1,10 +1,10 @@
 import React from "react";
 import { Form } from "semantic-ui-react";
 
-function PokemonForm() {
+function ColorForm() {
   return (
     <div>
-      <h3>Add a Pokemon!</h3>
+      <h3>Add a Color!</h3>
       <Form
         onSubmit={() => {
           console.log("submitting form...");
@@ -12,7 +12,7 @@ function PokemonForm() {
       >
         <Form.Group widths="equal">
           <Form.Input fluid label="Name" placeholder="Name" name="name" />
-          <Form.Input fluid label="hp" placeholder="hp" name="hp" />
+          <Form.Input fluid label="Hex Code" placeholder="Hex Code" name="hex-code" />
           <Form.Input
             fluid
             label="Front Image URL"
@@ -32,4 +32,4 @@ function PokemonForm() {
   );
 }
 
-export default PokemonForm;
+export default ColorForm;
